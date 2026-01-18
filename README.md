@@ -61,7 +61,7 @@ Industrial-grade multi-format barcode scanner with AI defect detection and ISO 1
 ## Support & Documentation
 - **Email:** hairfan545@gmail.com
 - **Documentation:** 
-- **Issue Tracker:** https://github.com/barcam/proscan/issues
+- **Issue Tracker:** https://github.com/ha55an123/barcam-proscan
 
 ## License
 MIT License - See LICENSE.txt for details
@@ -72,12 +72,5 @@ MIT License - See LICENSE.txt for details
 **Developer:** Hassan | © 2026 Barcam Technologies
 
 
-pyinstaller --onefile \
-    --windowed \
-    --name "Barcam-ProScan" \
-    --icon=app.ico \
-    --add-data "README.md;." \
-    --hidden-import pyzbar \
-    --hidden-import cv2 \
-    --hidden-import pandas \
-    Barcam-proscan.py
+pyinstaller --onefile \Barcam-proscan.py
+
